@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 5em;
+}
+.dogContainer {
+    display: flex;
+    height: 600px;
+    width: 700px;
+    border: black 2px solid;
+    border-radius: 2em;
+    background-repeat: no-repeat;
+}
+#dog {
+    width: 300px;
+    height: 50px;
+    border-radius: 2em;
+    border: 3px solid rgb(150, 43, 11);
+    font-size: 1.5em;
+    background-color: rgb(226, 74, 28);
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+#dog:hover {
+    background-color: rgb(226, 74, 28, 0.8);
+}
+#dog:active {
+    background-color: rgb(226, 74, 28);
+    transform: scale(0.95);
+}
