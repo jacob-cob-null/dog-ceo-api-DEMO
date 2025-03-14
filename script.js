@@ -4,8 +4,8 @@ const dogContainer = document.getElementById("dog-container");
 const dog = document.getElementById("dog");
 
 function getDog() {
-    const promise = fetch(DOG_URL);
-    promise
+    const fetchPromise = fetch(DOG_URL);
+    fetchPromise
         .then(function(response){
             const processingPromise = response.json();
             return processingPromise;
