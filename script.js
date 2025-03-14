@@ -5,7 +5,7 @@ const dog = document.getElementById("dog");
 
 function getDog() {
     const fetchPromise = fetch(DOG_URL);
-    fetchPromise
+    promise
         .then(function(response){
             const processingPromise = response.json();
             return processingPromise;
