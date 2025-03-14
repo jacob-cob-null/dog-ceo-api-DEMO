@@ -36,7 +36,7 @@
     background-color: rgb(226, 74, 28);
     transform: scale(0.95);
 }
-@media only screen and (max-width: 320px) and (min-width: 480px){
+@media only screen and (max-width: 480px) and (min-width: 320px){
     .dogContainer {
         height: 500px;
         width: 300px;
